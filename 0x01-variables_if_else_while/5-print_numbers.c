@@ -1,24 +1,15 @@
 #include <stdio.h>
 
-
 /**
- * main - This program prints the alphabet in lowercase and upper case
+ * main - this is the maain function
  *
- * Return: Always 0.
+ * Return: Always 0
  */
-
 int main(void)
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-
-	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
-	}
-
-	putchar('\n');
-
+int i;
+for (i = 0 ; i < 10 ; i++)
+	printf("%d", i);
+printf("\n");
 return (0);
 }
