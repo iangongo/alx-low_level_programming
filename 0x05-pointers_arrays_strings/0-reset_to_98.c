@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - this takes a pointer to an int and updates
- * the vallue it points to 98
+ * the value it points to 98
  *
  * @n: This is an input pointer
  *
